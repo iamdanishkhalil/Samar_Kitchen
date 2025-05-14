@@ -232,18 +232,18 @@ const Kitchen: React.FC = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 mb-4 rounded-lg text-black"
+              className="w-full border border-gray-200 p-3 mb-4 rounded-lg text-black"
               required
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full p-3 mb-4 rounded-lg text-black"
+              className="w-full p-3 mb-4 border border-gray-200 rounded-lg text-black"
               required
             />
             <textarea
               placeholder="Your Message"
-              className="w-full p-3 mb-4 rounded-lg text-black"
+              className="w-full p-3 mb-4 border border-gray-200 rounded-lg text-black"
               rows={4}
               required
             ></textarea>
